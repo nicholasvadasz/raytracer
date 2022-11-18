@@ -41,6 +41,12 @@ add_executable(${PROJECT_NAME}
   ./src/utils/scenedata.h
   ./src/utils/scenefilereader.h
   ./src/utils/sceneparser.h
+
+  ./src/geometry/cube.hpp
+  ./src/geometry/cone.hpp
+  ./src/geometry/cylinder.hpp
+  ./src/geometry/sphere.hpp
+  ./src/geometry/primitive.h
 )
 
 # GLM: this creates its library and allows you to `#include "glm/..."`
